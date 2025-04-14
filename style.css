@@ -1,16 +1,177 @@
-.contenuduheade{ 
-    height: 80vh;
-    width: 150px;
+/* Style pour l'en-tête */
+header {
+    background-color: #2e8b57; /* Vert inspiré de la nature */
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Espace entre le logo et l'image */
+    align-items: center; /* Alignement vertical des éléments */
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: url('oum.png');
     background-size: cover;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin: auto;
-    padding: auto;
-
+    background-position: center;
 }
-*{
 
-    margin: auto;
-    padding: auto ;
+.contenuduheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
+.logo {
+    text-align: left;
+}
+
+.logo img {
+    width: 80px; /* Ajuste la taille du logo selon tes besoins */
+    height: auto;
+    margin-right: 15px; /* Espacement entre le logo et le texte */
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 0;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+/* Nouvelle section pour l'image en haut à droite */
+.header-images {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-image {
+    width: 150px; /* Ajuste la taille de l'image selon tes besoins */
+    height: auto;
+}
+/* Style pour le body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Style pour l'en-tête */
+header {
+    background-color: #2e8b57; /* Vert inspiré de la nature */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo img {
+    width: 80px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-top: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+/* Style pour la navigation */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #2e8b57;
+    border-radius: 5px;
+}
+
+/* Section de présentation */
+.presentation {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.presentation h2 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.presentation p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Section des objectifs */
+.objectifs {
+    padding: 40px 20px;
+    background-color: #eaf5f2;
+}
+
+.objectifs h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.objectifs ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.objectifs li {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.objectifs li:before {
+    content: '🚴‍♀️';
+    margin-right: 10px;
+}
+
+/* Section de vision */
+.vision {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.vision h2 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.vision p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
 }
