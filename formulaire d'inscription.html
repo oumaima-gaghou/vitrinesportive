@@ -4,19 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styleformulaire.css">
 </head>
+
+<header class="header">
+
+    <div class="logo">
+        <img src="monlogo.png" alt="Logo de l'association Horizon Vélo">
+        </div>
+       <div class="logo-titre">
+        <h1>   🚴‍♀️ Horizon Vélo 🚴     </h1>
+    <p class="slogan"> Ensemble, explorons de nouveaux chemins !</p>
+    
+    </div>
+</header>
 <body>
     <h1>🚲  Formulaire d’inscription Horizon Vélo  🚲 </h1>
-    <h2> Tes informations personnelles  </h2>  
-    <ul>
-        <li>  Ton nom et ton prénom : </li>
-
-        <li>Ta date de naissance      : </li>
-
-        <li>Ton adresse e-mail          : </li>
-        
-        <li>Un numéro de téléphone de contact : </li>
-    </ul>
+    <form>
+        <h2> Tes informations personnelles </h2>
+        <div>
+            <label for="nom_prenom">Ton nom et ton prénom :</label>
+            <input type="text" id="nom_prenom" name="nom_prenom">
+        </div>
+        <div>
+            <label for="date_naissance">Ta date de naissance :</label>
+            <input type="date" id="date_naissance" name="date_naissance">
+        </div>
+        <div>
+            <label for="email">Ton adresse e-mail :</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="telephone">Un numéro de téléphone de contact :</label>
+            <input type="tel" id="telephone" name="telephone">
+        </div>
+        <div>
+            <label for="code_postal">Code postal :</label>
+            <input type="text" id="code_postal" name="code_postal">
+        </div>
+        <div>
+            <label for="adresse">N° de rue et adresse :</label>
+            <input type="text" id="adresse" name="adresse">
+        </div>
+        <div>
+            <label for="ville">Ville :</label>
+            <input type="text" id="ville" name="ville">
+        </div>
     
    <h2> Des informations sur ta pratique du vélo  </h2>
    <ul>
@@ -25,6 +58,25 @@
    <li> Quel est ton niveau (débutant, un peu d'expérience, régulier) ? </li>
    <li> As-tu ton propre vélo ? </li>
    </ul>
+   <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>Email : contact@horizonvelo.fr</p>
+        <p>Tél : 01 23 45 67 89</p>
+        <div class="socials">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2025 Horizon Vélo. Tous droits réservés.</p>
+    </div>
+    
+    </footer>
    
 
    

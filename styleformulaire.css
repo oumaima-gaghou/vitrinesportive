@@ -1,3 +1,106 @@
-*{
-    margin: 50px;
+body {
+    font-family: sans-serif;
+    background-color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.header {
+    background-color: #2b6777;
+    color: #f4a300;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.branding h1 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.branding .slogan {
+    font-size: 0.9em;
+    font-style: italic;
+    margin-top: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #f4a300;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    margin-top: 25px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #777;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #777;
+}
+
+.footer {
+    background-color: #2b6777; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-col {
+    margin-bottom: 20px;
+}
+
+.footer-col h4 {
+    font-size: 20px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col li {
+    font-size: 18px;
+}
+
+.footer-bottom {
+    font-size: 16px;
 }
