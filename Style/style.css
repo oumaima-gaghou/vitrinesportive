@@ -20,7 +20,7 @@
   
  
   .header {
-    background-color: #ffffff;
+    background-color: #2b6777;
     border-bottom: 1px solid #e0e0e0;
     padding: 15px 20px;
     width: 100%;
@@ -47,6 +47,8 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    font-family: 'Dancing Script', cursive;
+
   }
 
 .logo-titre{
@@ -59,8 +61,8 @@
   .logo-titre h1 {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #2b6777;
-    margin: 0;
+    color: white;
+    margin: auto;
   }
   
 
@@ -90,10 +92,10 @@
     flex-shrink: 0;   
   }
    .slogan {
-      font-size: 1rem;
+      font-size: 1.95rem;
       font-style: italic;
       color: #f4a300;
-      margin: 0;
+      margin: auto;
       font-family: 'Dancing Script', cursive;
     }
     
@@ -118,18 +120,18 @@
     text-align: center;
   }
 
-  .branding {
+  .logo-titre {
     align-items: center;
     text-align: center;
     margin-top: 10px;
   }
 
-  .branding h1 {
+  .logo-titre h1 {
     font-size: 1.5rem;
   }
 
   .slogan {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
 }
   
@@ -207,6 +209,13 @@
       .nav ul { flex-direction: column; align-items: flex-start; height: 100vh; position: fixed; left: 0; top: 0; width: 200px; padding-top: 80px; } 
 
       .header { justify-content: center;   text-align: center; }
+      .logo-titre     { align-items: center;
+                      text-align: center;
+                     
+                      }
+                      .nav li {
+                        margin: 0 15px;
+                      }
        .slogan { max-width: none; } 
        .main { margin-left: 220px; padding: 40px; }
        }
@@ -243,18 +252,6 @@
         margin: 5px 0;
       }
       
-      .socials a {
-        display: inline-block;
-        color: white;
-        margin: 10px 8px 0;
-        font-size: 1.2rem;
-        transition: transform 0.3s ease, color 0.3s ease;
-      }
-      
-      .socials a:hover {
-        color: #f4a300;
-        transform: scale(1.1);
-      }
       
       .footer-bottom {
         text-align: center;

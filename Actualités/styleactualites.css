@@ -1,0 +1,235 @@
+/* Base */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #2b6777;
+}
+
+/* Header */
+.header {
+    background-color: #2b6777;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+.logo-titre h1 {
+    font-size: 36px;
+    margin: 0;
+    color: white;
+}
+
+.logo-titre .slogan {
+    font-size: 18px;
+    margin-top: 5px;
+    color: white;
+}
+
+/* Navigation */
+nav {
+    background-color: #f4a300;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+
+nav a:hover {
+    background-color: #2b6777;
+    border-radius: 5px;
+}
+
+/* Page Actualités */
+.actualites-page {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.actualites-page h2 {
+    color: #2b6777;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.article {
+    margin-bottom: 50px;
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(43, 103, 119, 0.1);
+}
+
+.article h3 {
+    color: #f4a300;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.date-actu {
+    font-style: italic;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+
+.horaires {
+    background-color: #fdf7e2;
+    border-left: 6px solid var(--orange);
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  .horaires h3 {
+    color: var(--bleu);
+    margin-bottom: 15px;
+  }
+  
+  .horaire-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #333;
+  }
+  
+  .horaire-box li {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+
+.horaires {
+  background-color: #fdf7e2;
+  border-left: 6px solid var(--orange);
+  padding: 20px;
+  margin: 40px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.horaires h3 {
+  color: var(--bleu);
+  margin-bottom: 15px;
+}
+
+.horaire-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #333;
+}
+
+.horaire-box li {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.date-prochaine {
+    font-weight: bold;
+    color: #f4a300; 
+} 
+
+.article img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Galerie d'images */
+.mesimages {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.mesimages img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(43, 103, 119, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.mesimages img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    background-color: #2b6777;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    margin-bottom: 15px;
+}
+
+.fotercontact h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.fotercontact p {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    font-size: 16px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .mesimages {
+        flex-direction: column;
+        align-items: center;
+    }
+}
