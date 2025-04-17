@@ -43,21 +43,15 @@ body {
 .nav {
     background-color:#f4a300; 
     text-align: center;
-    
-}
-
-.nav ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     list-style: none;
-    background-color: #2b6777;
-}
-
-.nav li {
     margin: 5px 10px;
     list-style: none;
 }
+    
+
 
 .nav a {
     color: white;
